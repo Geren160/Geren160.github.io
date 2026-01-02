@@ -1,0 +1,65 @@
+.header{
+    background-color: #30698a;
+    padding: 20px;
+    text-align: center;
+}
+
+.header h1{
+    color: #e8eaec;
+    font-family: 'Arial', sans-serif;
+}
+
+.header li{
+    color: #4f1f86;
+    text-decoration: none;
+    text-align: left;
+}
+
+.header li:hover{
+    color: #0787f0;
+    text-decoration: underline;
+}
+
+.header a{
+    color: #d2d7db;
+    text-decoration: none;
+}
+
+.header a:hover{
+    color: #0787f0;
+    text-decoration: underline;
+}
+
+.section_about{
+    background-color: #79dd26;
+    padding: 30px;
+}
+
+.section_about h2{
+    color: #1895dd;
+    font-family: 'Arial', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.section_about p{
+    color: #c02c2c;
+    line-height: 1.6;
+}
+
+.section_projects{
+    background-color: #6bc4bd;
+    padding: 30px;
+}
+
+.section_projects h2{
+    color: #1895dd;
+    font-family: 'Arial', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.section_contact{
+    background-color: #d9d9d9;
+    padding: 30px;
+}
