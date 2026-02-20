@@ -1,43 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio Marco Gomez</title>
+    <title>Portafolio | Marco Gomez</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
     <header class="header">
-        <h1>Bienvenido a mi Portafolio</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">Sobre mí</a></li>
-                <li><a href="#projects">Proyectos</a></li>
-                <li><a href="#contact">Contacto</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <h1>Marco Antonio Gomez</h1>
+            <p>Desarrollador Python</p>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#about">Sobre mí</a></li>
+                    <li><a href="#projects">Proyectos</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <section id="about" class="section_about">
-        <h2>Sobre mí</h2>
-        <p>Hello there, soy Marco Antonio Gomez, un desarrollador apasionado por crear soluciones innovadoras y eficientes.</p>
-    </section>
+    <main class="container">
+        <section id="about" class="section">
+            <h2>Sobre mí</h2>
+            <div class="about-content">
+                <p>¡Hola! Soy Marco, un desarrollador apasionado por crear soluciones que optimizan procesos. Me especializo en transformar tareas manuales en flujos automáticos eficientes.</p>
+            </div>
+        </section>
 
-    <section id="projects" class="section_projects">
-        <h2>Proyectos</h2>
-        <ul>
-            <li><b>Generador de oficios:</b> Analicé el flujo de trabajo existente para identificar oportunidades de optimización y desarrollé una aplicación 
-                en Python con Tkinter y CustomTkinter para automatizar la generación de oficios a partir de datos de Google Forms/Sheets, generando 
-                documentos en Google Drive mediante plantillas dinámicas. Incluye formateo y manipulación de datos así como una interfaz amigable para 
-                usuarios no técnicos a quienes también capacité en su uso. El proyecto optimiza significativamente la eficiencia operativa y reduce errores manuales.
-                <p><b>Tecnologias:</b> Python, Pandas, Openpyxl, python-docx, Tkinter/CustomTkinter, Google Drive API</p>
-            </li>
+        <section id="projects" class="section">
+            <h2>Proyectos Destacados</h2>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <h3>Generador de Oficios</h3>
+                    <p>Automatización de documentos a partir de Google Forms/Sheets mediante plantillas dinámicas en Google Drive.</p>
+                    <div class="tags">
+                        <span>Python</span> <span>Pandas</span> <span>Google API</span> <span>Tkinter</span>
+                    </div>
+                </article>
+            </div>
+        </section>
 
-        </ul>
-    </section>
+        <section id="contact" class="section">
+            <h2>Contacto</h2>
+            <p>¿Tienes un proyecto en mente? Escríbeme a:</p>
+            <a href="mailto:marcoag160@gmail.com" class="btn-contact">marcoag160@gmail.com</a>
+        </section>
+    </main>
 
-    <section id="contact" class="section_contact">
-        <h2>Contacto</h2>
-        <p>Puedes contactarme a través de mi correo electrónico: marcoag160@gmail.com
+    <footer>
+        <p>&copy; 2024 Marco Gomez - Hecho con código</p>
+    </footer>
+</body>
 </html>
